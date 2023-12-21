@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Valens Condotel</title>
+  </head>
+  <body>
+        <!-- Messenger Chat plugin Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Chat plugin code -->
+        <div id="fb-customer-chat" class="fb-customerchat"></div>
+    
+        <script>
+          var chatbox = document.getElementById('fb-customer-chat');
+          chatbox.setAttribute("page_id", "102504342807600");
+          chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+    
+        <!-- Your SDK code -->
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v18.0'
+            });
+          };
+    
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>
+    <nav>
+      <div class="nav__logo">Valens Condotel</div>
+      <ul class="nav__links">
+        <li class="link"><a href="#">Home</a></li>
+        <li class="link"><a href="#">Amenities</a></li>
+        <li class="link"><a href="#">Room</a></li>
+        <li class="link"><a href="#">Near Places</a></li>
+      </ul>
+      <a href="rules.html" class="btn">
+        <button style="color: #ffffff;">Guidelines</button>
+      </a>
+    </nav>
+    <header class="section__container header__container">
+      <h1 class="section__header" >Your Perfect Escape</h1>
+      <img src="assets/header.jpg" alt="header" />
+    </header>
+
+    
+    <section class="section__container plan__container">
+      <h2 class="section__header">Because comfort is more important</h2>
+      <p class="description">
+        <p class="description">
+        Smart tv,ref,microwave oven,induction cooker, electric kettle, rice cooker, hot & cold shower with wifi.
+      </p>
+      <div class="plan__grid">
+        <div class="plan__content">
+          <h4 >Bathroom</h4>
+          <p>
+            Discover the convenience of a fully-equipped bathroom with our Condotel rental! No additional fees,
+             just the delight of refreshing in your temporary home away from home. Bathe, enjoy, and create wonderfully 
+             memorable experiences during your stay.
+          </p>
+          <h4>Living Room</h4>
+          <p>
+            Chill and unwind in our living room – on the house! 
+            Your Condotel stay just got cozier with a free, comfy space to kick back and relax.
+             No extra cost, just pure comfort during your home-away-from-home experience.
+          </p>
+          <h4>Dining Table</h4>
+          <p>
+            Savor the perks of transient living with a free dining table at your service! No added fees—just gather, 
+            feast, and make every meal a special moment in your temporary abode. Comfort and convenience, on the house.
+          </p>
+          
+        </div>
+        <div class="plan__image">
+          <img src="assets/cr.jpg" alt="plan" />
+          <img src="assets/plan-2.jpg" alt="plan" />
+          <img src="assets/plan-3.jpg" alt="plan" />
+        </div>
+      </div>
+    </section>
+    <section class="memories-section__container">
+      <div class="memories-section__header">
+          <h2 class="section__header memories-section__title" style="color: #ffffff;">
+              Book Us Now
+          </h2>
+      </div>
+      <div class="memories-section__grid">
+          <div class="memories-section__card">
+              <span><i class="ri-phone-line memories-section__icon" style="font-size: 5rem; color:#ffffff"></i></span>
+              <h4 class="memories-section__heading" style="color: #ffffff;">Contact</h4>
+              <h4 class="memories-section__heading" style="color: #ffffff;">Valen Garcia</h4>
+              <p class="memories-section__text" style="color: #ffffff;">
+                09691852008
+              </p>
+          </div>
+          <div class="memories-section__card">
+              <span ><i class="ri-bank-card-line memories-section__icon" style="font-size: 5rem; color:#ffffff"></i></i></span>
+              <h4 class="memories-section__heading" style="color: #ffffff;" >GCASH</h4>
+              <h4 class="memories-section__heading" style="color: #ffffff;" >Valen Garcia</h4>
+              <p class="memories-section__text" style="color: #ffffff;">
+                  09691852008
+              </p>
+          </div>
+          <div class="memories-section__card">
+              <span><i class="ri-bank-fill memories-section__icon" style="font-size: 5rem; color:#ffffff"></i></span>
+              <h4 class="memories-section__heading" style="color: #ffffff;">Bank Transfer</h4>
+              <h4 class="memories-section__heading" style="color: #ffffff;">Valen Garcia</h4>
+              <p class="memories-section__text" style="color: #ffffff;">
+                  <br> BPI
+                  <br> Union Bank
+                  <br> Pnb
+              </p>
+          </div>
+      </div>
+  </section>
+  
+
+    <section class="memories">
+      <div class="section__container memories__container">
+        <div class="memories__header">
+          <h2 class="section__header">
+            Let Us stay with You
+          </h2>
+          <a href="rules.html" class="btn">
+          <button class="view__all">Guidelines</button>
+        </a>
+        </div>
+        <div class="memories__grid">
+          <div class="memories__card">
+            <span><i class="ri-calendar-2-line"></i></span>
+            <h4 style="color: #ffffff;">Book & relax</h4>
+            <p style="color: #ffffff;">
+              With "Book and Relax," you can sit back, unwind, and enjoy the transient while we take care of everything else.
+              <br>
+              <strong>Check-in: 2pm</strong>
+              <br>
+              <strong>Check-out: 11am</strong>
+            </p>
+          </div>
+          <div class="memories__card">
+            <span><i class="ri-shield-check-line"></i></span>
+            <h4 style="color: #ffffff;">24/7 Security</h4>
+            <p style="color: #ffffff;">
+              Rest easy with our 24/7 security watch. Your safety is our priority during your transient stay.
+               We've got your back, always.
+            </p>
+          </div>
+          <div class="memories__card">
+            <span><i class="ri-bookmark-2-line"></i></span>
+            <h4 style="color: #ffffff;">With Pay Parking</h4>
+            <p style="color: #ffffff;">
+              Secure your spot with our pay-to-park convenience!
+               Enjoy stress-free transient living knowing your parking is taken care of.
+                It's not just a space; it's peace of mind, ready and waiting for you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container lounge__container">
+      <div class="lounge__image">
+        <img src="assets/balcony-1.jpg" alt="lounge" />
+        <img src="assets/lounge-1.jpg" alt="lounge" />
+      
+        
+        
+      </div>
+      <div class="lounge__content">
+        <h2 class="section__header">Room Easy <br> with Us</h2>
+        <div class="lounge__grid">
+          <div class="lounge__details">
+            <h4>Experience Tranquility</h4>
+            <p>
+              Serenity Haven offers a tranquil escape, featuring comfortable
+              seating, calming ambiance, and attentive service.
+            </p>
+          </div>
+          <div class="lounge__details">
+            <h4 >Fresh Linens</h4>
+            <p>
+              Wrap yourself in pure comfort with Fresh Linens.
+               Our soft and carefully chosen fabrics redefine relaxation.
+                Transform your sleep into a haven of serenity with the simple luxury of Fresh 
+                Linens—because every night deserves the touch of exceptional comfort.
+            </p>
+          </div>
+          <div class="lounge__details">
+            <h4>A Welcoming Space</h4>
+            <p>
+              Creating a family-friendly atmosphere, The Family Zone is the
+              perfect haven for parents and children.
+            </p>
+          </div>
+          <div class="lounge__details">
+            <h4 >Room with balcony</h4>
+            <p>
+              Step up your stay with a balcony room—where every moment comes with a breeze and a view. 
+              Your cozy retreat with a touch of the outdoors, because why settle for just a room when you can
+               have a balcony escape?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container lounge__container">
+      <div class="lounge__image">
+        <img src="assets/balcony-2.jpg" alt="lounge" />
+        <img src="assets/lounge-2.jpg" alt="lounge" />
+        
+      </div>
+      <div class="lounge__content">
+        <h2 class="section__header">Room Easy <br> with Us</h2>
+        <div class="lounge__grid">
+          <div class="lounge__details">
+            <h4>Experience Tranquility</h4>
+            <p>
+              Serenity Haven offers a tranquil escape, featuring comfortable
+              seating, calming ambiance, and attentive service.
+            </p>
+          </div>
+          <div class="lounge__details">
+            <h4>Fresh Linens</h4>
+            <p>
+              Wrap yourself in pure comfort with Fresh Linens.
+               Our soft and carefully chosen fabrics redefine relaxation.
+                Transform your sleep into a haven of serenity with the simple luxury of Fresh 
+                Linens—because every night deserves the touch of exceptional comfort.
+            </p>
+          </div>
+          <div class="lounge__details">
+            <h4 >A Welcoming Space</h4>
+            <p>
+              Creating a family-friendly atmosphere, The Family Zone is the
+              perfect haven for parents and children.
+            </p>
+          </div>
+          <div class="lounge__details">
+            <h4>Rooms with balcony</h4>
+            <p>
+              Step up your stay with a balcony room—where every moment comes with a breeze and a view. 
+              Your cozy retreat with a touch of the outdoors, because why settle for just a room when you can
+               have a balcony escape?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container lounge__container">
+      <div class="lounge__image">
+        <img src="assets/kitchen-2.jpg" alt="lounge" />
+        <img src="assets/kitchen-1.jpg" alt="lounge" />
+        
+      </div>
+      <div class="lounge__content">
+        <h2 class="section__header">Kitchen</h2>
+        <div class="lounge__grid">
+          <div class="lounge__details">
+            <h4>Can cook with basic kitchen utensils</h4>
+            <p>
+              Unleash your inner chef at our place, Valens Condotel, where the charm lies in simplicity.
+               Enjoy the freedom to cook up delightful meals with our collection of basic kitchen utensils.
+                We believe in making your stay not just comfortable but deliciously memorable. So, grab a spatula,
+                 stir up some magic, and savor the taste of home away from home. Valens Condotel—a space where every meal 
+                 is a celebration of simplicity and flavor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section__container travellers__container">
+      <h2 class="section__header" >Near Places</h2>
+      <div class="travellers__grid">
+        <div class="travellers__card">
+          <img src="assets/place-1.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="assets/valen.jpg" alt="client" />
+            <h4 style="color: #ffffff;">2 mins walk</h4>
+            <p style="color: #ffffff;">Baguio Cathedral and Session Road</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="assets/place-2.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="assets/valen.jpg" alt="client" />
+            <h4 style="color: #ffffff;">3-5mins walk</h4>
+            <p style="color: #ffffff;">SM City Baguio</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="assets/place-3.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="assets/valen.jpg" alt="client" />
+            <h4 style="color: #ffffff;">5-8mins walk</h4>
+            <p style="color: #ffffff;">Burnham Park, Night Market, and Public Market</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="assets/place-4.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="assets/valen.jpg" alt="client" />
+            <h4 style="color: #ffffff;">10 to 15 mins drive</h4>
+            <p style="color: #ffffff;">without traffic to major pasyalan like Botanical Garden,
+               Wright park, The Mansion, Mines View and Camp John Hay</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+    
+        <!-- Section 1: About Valens Condotel -->
+        <div class="footer__col box">
+          <h3 style="color: #ffffff;">Valens Condotel</h3>
+          <p>Welcome to Valens Condotel, where comfort meets convenience. Immerse yourself in a haven of hospitality, offering more than just a stay—it's an experience. Our thoughtfully designed spaces and impeccable service redefine your idea of temporary living. Embrace the essence of comfort at Valens Condotel, where every moment is crafted for your absolute relaxation and enjoyment. Your home away from home, elevated.</p>
+        </div>
+    
+        <!-- Section 2: Check-in and Out Procedures -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 Check-in and Out Procedures</h4>
+          <p>Upon arrival, please proceed to the lobby, and our host will assist you.</p>
+          <!-- Add the rest of the provided check-in and out procedures here -->
+        </div>
+    
+        <!-- Section 3: Check-in Details -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 CHECK IN 2:00 PM</h4>
+          <p>Fill out information slip
+            <br>Present 1 valid ID
+            <br> Payment of Php 1,000.00 security deposit
+            <br> Host will assist you in the unit
+            <br> Turnover of keys</p>
+          <!-- Add the rest of the contact details here -->
+        </div>
+    
+        <!-- Section 4: Check-out Details -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 CHECK OUT 11:00 AM</h4>
+          <p>Drop by Lobby
+            <br>Turnover of keys
+            <br> Host will check unit
+            <br>Host releases security deposit
+            <br> Good to check out</p>
+          <p>*Make sure to secure your presented valid IDs after registration before heading to the unit.</p>
+          <!-- Add the rest of the address details here -->
+        </div>
+    
+        <!-- Section 5: Security Deposit -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 SECURITY DEPOSIT</h4>
+          <p>Please note that we require Php 1,000.00 as a security deposit. Payment is upon Check-in. Refundable after check-out provided that there are no damages or misuse of unit/items and/or any violation of the house rules.</p>
+          <!-- Add the rest of the provided check-in and out procedures here -->
+        </div>
+    
+        <!-- Section 6: Parking Details -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 PARKING </h4>
+          <p>Parking Fee: Php 350.00/ 24 hours
+            One Vehicle Only: Per Transient</p>
+          <!-- Add the rest of the contact details here -->
+        </div>
+    
+        <!-- Section 7: Baguio City Number Coding -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 Baguio City Number Coding</h4>
+          <p>7:00 am - 7:00 pm
+            <br> 1-2 Monday
+            <br>  3-4 Tuesday
+            <br> 5-6 Wednesday
+            <br>  7-8 Thursday
+            <br>  9-0 Friday</p>
+          <!-- Add the rest of the address details here -->
+        </div>
+    
+        <!-- Section 8: Toiletries & Linens -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 TOILETRIES & LINENS</h4>
+          <p>Towels for each guest
+            <br> 1 Tissue Paper
+            <br> 1 Soap
+            <br> 1 Shampoo Sachet for each guest
+            <br> Blankets and Beddings</p>
+          <!-- Add the rest of the provided check-in and out procedures here -->
+        </div>
+    
+        <!-- Section 9: Contact Details -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 CONTACT DETAILS</h4>
+          <p>Valen Garcia 09691852008</p>
+          <!-- Add the rest of the contact details here -->
+        </div>
+    
+        <!-- Section 10: Address Details -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 ADDRESS</h4>
+          <p>Goshen Land Towers Condominium, Laurel St., Upper General Luna Road, Baguio City, Benguet</p>
+          <p>Landmark: near Citylight Hotel, Old BENECO, and Megatowers</p>
+          <!-- Add the rest of the address details here -->
+        </div>
+    
+        <!-- Section 11: Additional Guest Information -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 Additional guest is charged 500 per head/night. NO</h4>
+          <!-- Add the rest of the provided check-in and out procedures here -->
+        </div>
+    
+        <!-- Section 12: House Rules -->
+        <div class="footer__col box">
+          <h4 style="color: #ffffff;">📝 HOUSE RULES</h4>
+          <ul style="color: #ffffff;">
+            <li>Quiet Hours: 8:00 pm to 8:00 am</li>
+            <li>Respect peace, quiet, and privacy of neighbors</li>
+            <li>No smoking/vaping inside or in the balcony</li>
+            <li>Moderate drinking of alcohol</li>
+            <li>Keep children away from balcony, doors, and windows</li>
+            <li>Use appliances/furniture responsibly</li>
+            <li>Do not throw hard objects in toilets, drains, and sinks</li>
+            <li>Do not throw trash outside the balcony</li>
+            <li>Report any damages for accountability</li>
+            <li>Treat this place like your HOME</li>
+          </ul>
+        </div>
+    
+    
+      <div class="section__container footer__bar">
+        <p>Valens Condotel by Goshen Land Tower</p>
+        <div class="socials">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-youtube-fill"></i></span>
+        </div>
+      </div>
+    </footer>
+    
+    
+</body>
+</html>

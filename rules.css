@@ -1,0 +1,209 @@
+/* Common styles for rules pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87594C; /* Green background color for the entire page */
+  }
+  
+  .rules-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #E5CDB3; /* Yellow background color for the rules container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content */
+  }
+  
+  .rules-container h1 {
+    color: #87594C;
+  }
+  
+  p {
+    color: #444;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #87594C;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .btn button {
+    padding: 1.5rem 3rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #87594C;
+    background-color:#87594C; /* Green background color for the button */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn button:hover {
+    background-color: #78584C; /* Slightly darker green on hover for the button */
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 1200px) {
+    .rules-container {
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .rules-container {
+      width: 90%;
+      margin: 20px auto;
+      padding: 15px;
+    }
+  
+    .btn button {
+      padding: 1rem 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .rules-container {
+      width: 90%;
+      margin: 20px auto;
+      padding: 10px;
+    }
+  
+    .btn button {
+      padding: 0.75rem 1.5rem;
+    }
+  }
+  .footer {
+    background-color: #87594C;
+  }
+  
+  .footer__container {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 5rem;
+  }
+  
+  .footer__col h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:  #87594C;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__col h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:  #87594C;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__col p {
+    color: var(--extra-light);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .footer__col p:hover {
+    color: var(--white);
+  }
+  
+  .footer__bar {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 1px solid var(--extra-light);
+  }
+  
+  .footer__bar p {
+    font-size: 0.9rem;
+    color: var(--extra-light);
+  }
+  
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .socials span {
+    font-size: 1.2rem;
+    color: var(--extra-light);
+  }
+  
+  @media (width < 1200px) {
+    .section__container.header__container,
+    .section__container.plan__container,
+    .section__container.lounge__container {
+      overflow: hidden;
+    }
+  
+    .memories__grid {
+      gap: 3rem;
+    }
+  }
+  
+  @media (width < 900px) {
+    nav .btn {
+      display: none;
+    }
+  
+    .footer__container {
+      gap: 2rem;
+    }
+  }
+  @media (width < 600px) {
+    .nav__links {
+      display: none;
+    }
+  
+    .booking__nav span {
+      padding: 1rem 0.5rem;
+    }
+  
+    .booking__container form {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .memories__header {
+      flex-direction: column;
+    }
+  
+    .memories__grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .lounge__grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .travellers__grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .footer__container {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer__bar {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
